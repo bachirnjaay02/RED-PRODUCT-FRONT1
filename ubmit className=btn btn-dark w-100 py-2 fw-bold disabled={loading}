@@ -1,0 +1,281 @@
+[33mcommit aa9ff93c965e2769202406e1937da9b38efb1016[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Thu Apr 16 11:50:16 2026 +0000
+
+     debug
+
+[33mcommit c356946e973361edf3211c9caccb6a94a4d85fe6[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Thu Apr 16 11:20:51 2026 +0000
+
+     fix: change api brevo
+
+[33mcommit 8d2de8eab42acea4701c8bc7c59afda40ffbcce9[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Thu Apr 16 11:08:56 2026 +0000
+
+     fix: BREVO API URL
+
+[33mcommit 4d395063d74249a7d8a84e93597b964a756f0859[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Wed Apr 15 19:13:37 2026 +0000
+
+     fix: debug
+
+[33mcommit 42b6480e6271ef930d7618151b2426449bfb4b68[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Wed Apr 15 15:40:15 2026 +0000
+
+     add mode aperçu
+
+[33mcommit b938a65b6566528b0352148ca8a809d7efddfb10[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Wed Apr 15 14:08:52 2026 +0000
+
+     debug build
+
+[33mcommit 61e7f455af87801dd14c51eb18ae8496452f394a[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Wed Apr 15 13:10:22 2026 +0000
+
+     debug build
+
+[33mcommit bcae29758056b1fb90c873b11de777397c13fc5b[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Wed Apr 15 13:05:51 2026 +0000
+
+    debug build
+
+[33mcommit 9d84d2250f53132c5b5ab6ab25b4ac53765759a0[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 20:02:55 2026 +0000
+
+     fix debug email
+
+[33mcommit ea51177aefbe2cff0eb1cd627b186723670d57ec[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 19:50:12 2026 +0000
+
+    fix: debug build
+
+[33mcommit e38d00c1fe226a62607ec7f6d2d7df63354ce753[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 19:37:40 2026 +0000
+
+     fix: corriger klk bugs
+
+[33mcommit de9925a2feb5d9e62be5d2dcf17bbab4d8a84ae7[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 19:02:57 2026 +0000
+
+    fix : debug reset password
+
+[33mcommit 27f0f93351a0c6d7210ce524ca71faac9a9d3594[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 18:49:19 2026 +0000
+
+     fix: add import resetpassword
+
+[33mcommit 0f77e2e9ea3af8a12ae2c3d5019795a74e304b29[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 18:44:03 2026 +0000
+
+    feat: implement account activation via email and restrict unverified login
+
+[33mcommit 8b5bf74582589d992fc3699cc01f98e8b340e60c[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 18:35:40 2026 +0000
+
+     ajouter a new fonctionality
+
+[33mcommit edc0a633728a52f69b0b03f24172f5c471450e56[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 18:27:51 2026 +0000
+
+    feat:nouvelle fonctionnalité
+
+[33mcommit eb01b1bb98f68b9e99b8d00014a75b59fe27c68a[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 16:57:47 2026 +0000
+
+     url imag
+
+[33mcommit 0df508b92d702b897264a6f8e108ad6fc90c4a02[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 16:52:46 2026 +0000
+
+     essaie
+
+[33mcommit bb9f7a6636f01c8c5ab96d594edebe9b4a8dce0c[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 16:39:15 2026 +0000
+
+     image en URL
+
+[33mcommit 34b976d3d94e12b827688fadcdaa43b3c26ddab1[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 16:30:05 2026 +0000
+
+     prendre les images sur internet
+
+[33mcommit 5cbfcd8cc1df70c1b859015681ce4ed4b7232dbc[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 16:17:06 2026 +0000
+
+     img
+
+[33mcommit 7fc8e9bf0ade18275bb3e7c323b591dd20021713[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 16:03:04 2026 +0000
+
+     corriger la provenance de l'images
+
+[33mcommit ecc118b046fbc712587437abdb40a334e1431a60[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 15:56:37 2026 +0000
+
+     add imageUrl
+
+[33mcommit d0276b87e1372e28829cfff3ca6ce119b86a0781[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 15:42:04 2026 +0000
+
+     images
+
+[33mcommit 97bda0c59f3203c32e2f5763782908a59a6b9e94[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 15:39:04 2026 +0000
+
+     corriger l'affichage des images
+
+[33mcommit 7f5121e233212df2aaad3391d0cd7d8dc1866f23[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 15:20:52 2026 +0000
+
+     images
+
+[33mcommit 8057eafcd97ed447b072c35a933e326fd22b7766[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 15:06:00 2026 +0000
+
+     corriger les images
+
+[33mcommit a12724975c711f7e4c0e4e25d3af186972ab840a[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 15:02:38 2026 +0000
+
+     upload les images
+
+[33mcommit 7f897a898b1222bd9dd54f62cbe94015dc8f21fc[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 14:42:33 2026 +0000
+
+     provenance des iomages
+
+[33mcommit 7ad0a9e187f3bb91746b104efbb8a7c345977d79[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 14:40:39 2026 +0000
+
+     add les photos
+
+[33mcommit 5dff49ac717e57fb5e7fdaf65f580084884d692e[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 14:29:55 2026 +0000
+
+     modifier hotelcard.js
+
+[33mcommit e5f49be6feccae74c2d2047ff9e90dc5f2cee21e[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 14:20:12 2026 +0000
+
+     modifier dashboard
+
+[33mcommit 2a519bf6a5a682d7a4d17bcf986f67bf0f3d62ac[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 13:55:15 2026 +0000
+
+     corriger les erreurs du Front end
+
+[33mcommit d10c614312240e5cf7b1129fb15aee1e104fcda1[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Tue Apr 14 12:49:44 2026 +0000
+
+     add url /api/hotels
+
+[33mcommit ccc2fa75378050647737e2353be14d6fe159c751[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Mon Apr 13 11:24:44 2026 +0000
+
+    fix: resolve ESLint warnings for Vercel build
+
+[33mcommit 4469f7fde411c3d438fe4849b04aa1b3c18835c8[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:55:21 2026 +0000
+
+     change VITE to REACT APP
+
+[33mcommit 4cba74b77afe7459ab394cfa0eac6f1de339090d[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:54:13 2026 +0000
+
+     change vite to react app
+
+[33mcommit 50f7a53d5c50eaf17dd4066b611f819a21673a0c[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:47:00 2026 +0000
+
+    fix: remove backend submodules from frontend repo
+
+[33mcommit 5d7f8debdb2f767b28a8a655fa4c5a60e50f45d8[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:45:19 2026 +0000
+
+    fix: remove backend folders from frontend
+
+[33mcommit df9c60e3bd5f65e06940a89ee14279c2e515c4c1[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:39:47 2026 +0000
+
+    fix: remove backend submodules from frontend repo
+
+[33mcommit 814982a701380d21c85bc0dfe4300a7d24512d32[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:28:10 2026 +0000
+
+    fix: use VITE_API_URL for Vite compatibility
+
+[33mcommit 99307546b989df0bc35d7f9ea94e125689af84b8[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 17:03:58 2026 +0000
+
+     add auth.js
+
+[33mcommit 44320da4730785e45bbeb530e0a948a634b55753[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Sun Apr 12 16:40:48 2026 +0000
+
+    fix: use VITE_API_URL instead of REACT_APP_API_URL
+
+[33mcommit 5280303a97982b29a0ee17373a136a03a1a93b20[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Fri Apr 10 16:50:24 2026 +0000
+
+     .env
+
+[33mcommit 271cc0f72faa0c2f7d7c39b92bea9adb80335673[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Fri Apr 10 16:25:58 2026 +0000
+
+     modified error
+
+[33mcommit 728fda0b46dabcfd86a8b70fd7806a08d727fe48[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Fri Apr 10 15:53:26 2026 +0000
+
+     change http to https in app.js
+
+[33mcommit 64ee51bc94e0f893d76879a451fa98602031ab3c[m
+Author: BASSIROUNDIAYE233 <bachirndiaye233@gmail.com>
+Date:   Fri Apr 10 15:18:20 2026 +0000
+
+     front end red product
