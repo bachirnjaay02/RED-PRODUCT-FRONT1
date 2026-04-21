@@ -60,6 +60,11 @@ export const logoutUser = async () => {
     headers: token ? { 'Authorization': `Bearer ${token}` } : {},
   }).catch(() => ({ message: 'Déconnexion locale.' }));
 };
+export const requestPasswordReset = async (payload) =>
+  apiRequest('/forgotpassword', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  });
 
 // ✅ Renvoyer l'email de vérification
 export const resendVerificationEmail = async () =>
