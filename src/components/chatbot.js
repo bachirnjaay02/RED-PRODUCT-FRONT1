@@ -26,7 +26,7 @@ const FAQ = [
     answer: "Tous les hôtels disponibles sont listés sur la page principale. Vous pouvez utiliser la barre de recherche pour filtrer par nom ou adresse."
   },
   {
-    keywords: ["paiement", "payer", "carte", "mobile money"],
+    keywords: ["paiement", "payer", "carte"],
     answer: "Nous acceptons les paiements par carte bancaire et Mobile Money. Le paiement est sécurisé et chiffré."
   },
   {
