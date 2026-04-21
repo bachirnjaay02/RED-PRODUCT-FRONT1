@@ -10,6 +10,7 @@ import AddHotelModal from './components/AddHotelModal';
 import Dashboard from './components/Dashboard';
 import Layout from './components/Layout';
 import { clearUser, getStoredUser, logoutUser, saveUser } from './services/auth';
+import ChatBot from './components/chatbot'; 
 
 const API_BASE_URL = (process.env.REACT_APP_API_URL || 'https://red-product-db-production.up.railway.app/api').replace(/\/$/, '');
 
@@ -92,10 +93,7 @@ const App = () => {
       setHotels(response.data);
     } catch (error) {
       console.error('Erreur lors de la récupération des hôtels:', error);
-      // Fallback sur les données statiques en cas d'erreur
       setHotels([
-        // je veux prendre les images sur internet et pas sur le backend
-
         { id: 1, image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/33075123.jpg?k=75b085b477fd6ed0004a8c4470d10b6717072de93527080a1c53330f327b5984&o=', location: 'Boulevard Martin Luther King Dakar, 11500', name: 'Hôtel Terrou-Bi', price: '25.000' },
         { id: 2, image: 'king fahd palace.png', location: 'Rte des Almadies, Dakar', name: 'King Fahd Palace', price: '20.000' },
         { id: 3, image: 'radisson blue.jpg', location: 'Rte de la Corniche 0, Dakar 16868', name: 'Radisson Blu Hotel', price: '22.000' },
@@ -108,7 +106,6 @@ const App = () => {
     }
   };
 
-  // ✅ Corrigé : useEffect simple, fetchHotels gère déjà setHotels en interne
   useEffect(() => {
     fetchHotels();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -122,7 +119,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Login onLoginSuccess={handleAuthSuccess} />} />
         <Route path="/register" element={<Register onRegisterSuccess={handleAuthSuccess} />} />
-        <Route path="/forgot-password" element={<ForgotPassword  />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password/:token" element={<ResetPassword onResetPassword={handleAuthSuccess} />} />
 
         <Route element={<Layout currentUser={currentUser} onLogout={handleLogout} />}>
@@ -144,6 +141,10 @@ const App = () => {
       </Routes>
 
       <AddHotelModal isOpen={showModal} onClose={() => setShowModal(false)} onRefresh={refreshHotels} />
+
+   {/* pour k le chatbot soit visible sur toutes les pages */}
+      <ChatBot />
+
     </Router>
   );
 };
