@@ -41,6 +41,22 @@ const FAQ = [
     keywords: ["merci", "thanks"],
     answer: "Avec plaisir ! N'hésitez pas si vous avez d'autres questions. 😊"
   },
+  {
+    keywords: ["au revoir", "bye", "à bientôt"],
+    answer: "Au revoir ! N'hésitez pas à revenir si vous avez besoin d'aide pour vos réservations. 😊"
+  },
+  {
+    keywords: ["problème", "bug", "erreur"],
+    answer: "Je suis désolé d'apprendre que vous rencontrez un problème. Pouvez-vous me donner plus de détails sur ce qui ne fonctionne pas ?"
+  },
+  {
+    keywords: [],
+    answer: "Je n'ai pas bien compris votre question. Voici ce sur quoi je peux vous aider : réservation, prix, annulation, compte, connexion, paiement ou support. Pouvez-vous reformuler ?"
+  },
+  {
+    keywords: ["quelle mobile money"],
+    answer: "Nous acceptons les paiements via Orange Money, Free Money et Wave. Choisissez votre opérateur préféré lors du paiement."
+  },
 ];
 
 const DEFAULT_ANSWER = "Je n'ai pas bien compris votre question. Voici ce sur quoi je peux vous aider : réservation, prix, annulation, compte, connexion, paiement ou support. Pouvez-vous reformuler ?";
