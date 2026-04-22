@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { resendVerificationEmail } from '../services/auth';
+import { resendVerificationEmail, saveUser } from '../services/auth';
 
 const API_BASE_URL = (process.env.REACT_APP_API_URL || 'https://red-product-db-production.up.railway.app/api').replace(/\/$/, '');
 
@@ -47,8 +47,11 @@ const Login = () => {
         password: formData.password
       });
 
-      localStorage.setItem('token', response.data.access_token);
-      localStorage.setItem('user', JSON.stringify(response.data.user));
+      // ✅ CORRECTION : saveUser avec token inclus dans le même objet
+      saveUser({
+        ...response.data.user,
+        token: response.data.access_token
+      });
 
       navigate('/dashboard');
 
@@ -68,7 +71,6 @@ const Login = () => {
           <p className="text-muted">Connectez-vous à votre compte</p>
         </div>
 
-        {/* ✅ Message d'erreur + bouton renvoi email dans le return */}
         {error && (
           <div className="alert alert-danger small py-2" role="alert">
             {error}
@@ -85,7 +87,6 @@ const Login = () => {
           </div>
         )}
 
-        {/* ✅ Message de succès renvoi email */}
         {resendSuccess && (
           <div className="alert alert-success small py-2" role="alert">
             Email de vérification renvoyé ! Vérifiez votre boîte mail.
@@ -165,7 +166,7 @@ const Login = () => {
             </Link>
           </p>
         </div>
-            {/* SE CONNECTER SANS COMPTE */}
+
         <div className="text-center mt-3">
           <p className="small mb-0">
             <Link to="/dashboard" className="text-secondary fw-bold text-decoration-none">
@@ -174,7 +175,7 @@ const Login = () => {
           </p>
         </div>
 
-       </div>
+      </div>
     </div>
   );
 };
