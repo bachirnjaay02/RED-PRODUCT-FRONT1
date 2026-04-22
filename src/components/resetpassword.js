@@ -26,7 +26,7 @@ const ResetPassword = () => {
     setMessage({ type: '', text: '' });
 
     try {
-      const response = await axios.post(`${API_BASE_URL}/ForgotPassword`, { email });
+      const response = await axios.post(`${API_BASE_URL}/forgot-password`, { email });
       const data = response.data;
       setMessage({ type: 'success', text: data.message });
       setStep('verify');
