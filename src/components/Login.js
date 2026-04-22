@@ -42,7 +42,7 @@ const Login = () => {
     setResendSuccess(false);
 
     try {
-      const response = await axios.post(`${API_BASE_URL}/Login`, {
+      const response = await axios.post(`${API_BASE_URL}/login`, {
         email: formData.email,
         password: formData.password
       });
